@@ -1450,6 +1450,13 @@ a {
 a:hover {
   color: #49b1f5;
 }
+#site-title,
+#site-subtitle,
+#site-name,
+#aside-content .author-info__name,
+#aside-content .author-info__description {
+  font-family: Hanayuzu'Blog;
+}
 .is-center {
   text-align: center;
 }
@@ -3935,7 +3942,7 @@ blockquote footer cite:before {
 #article-container.post-content h6:before {
   position: absolute;
   top: calc(50% - 0.35rem);
-  color: #f47466;
+  color: #f47460;
   content: '\f0c1';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
